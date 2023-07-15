@@ -2,43 +2,46 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" />
-  <script src="Display.js" type="text/javascript"></script>
-  <script src="Calculadora.js" type="text/javascript"></script>
-  <script src="index.js" type="text/javascript" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <script src="display.js" type="text/javascript"></script>
+    <script src="calculadora.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-  <div class="container">
-    <div class="calculadora">
-      <div class="calculadora__display">
-        <div class="calculadora__valor-anterior"></div>
-        <div class="calculadora__valor-actual"></div>
-      </div>
-      <button id="borraTodo" class="calculadora__borraTodo calculadora__col-2">C</button>
-      <button id="borrar1" class="calculadora__borrar1">&larr;</button>
-      <button class="calculadora__operador" value="dividir">/</button>
-      <button class="calculadora__numero">7</button>
-      <button class="calculadora__numero">8</button>
-      <button class="calculadora__numero">9</button>
-      <button class="calculadora__operador" value="multiplicar">X</button>
-      <button class="calculadora__numero">4</button>
-      <button class="calculadora__numero">5</button>
-      <button class="calculadora__numero">6</button>
-      <button class="calculadora__operador" value="restar">-</button>
-      <button class="calculadora__numero">1</button>
-      <button class="calculadora__numero">2</button>
-      <button class="calculadora__numero">3</button>
-      <button class="calculadora__operador" value="sumar">+</button>
-      <button class="calculadora__col-2 calculadora__numero">0</button>
-      <button class="calculadora__numero">.</button>
-      <button class="calculadora__operador" value="igual">=</button>
+    <div class="container">
+        <div class="calculadora">
+            <div class="calculadora__display">
+                <div class="calculadora__valor-anterior"></div>
+                <div class="calculadora__valor-actual"></div>
+            </div>
+            <button id="borraTodo" class="calculadora__borraTodo calculadora__col-2">C</button>
+            <button id="borrar1" class="calculadora__borrar1">&larr;</button>
+            <button class="calculadora__operador" value="dividir">/</button>
+            <button class="calculadora__numero">7</button>
+            <button class="calculadora__numero">8</button>
+            <button class="calculadora__numero">9</button>
+            <button class="calculadora__operador" value="multiplicar">X</button>
+            <button class="calculadora__numero">4</button>
+            <button class="calculadora__numero">5</button>
+            <button class="calculadora__numero">6</button>
+            <button class="calculadora__operador" value="restar">-</button>
+            <button class="calculadora__numero">1</button>
+            <button class="calculadora__numero">2</button>
+            <button class="calculadora__numero">3</button>
+            <button class="calculadora__operador" value="sumar">+</button>
+            <button class="calculadora__col-2 calculadora__numero">0</button>
+            <button class="calculadora__numero">.</button>
+            <button id="porcentaje" class="calculadora__operador" value="porcentaje">%</button>
+            <button id="potencia" class="calculadora__operador" value="potencia">^</button>
+            <button id="raiz" class="calculadora__operador" value="raiz">√</button>
+            <button class="calculadora__operador calculadora__col-2" value="igual">=</button>
+        </div>
     </div>
-  </div>
 </body>
 
 </html>
