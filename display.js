@@ -48,7 +48,7 @@ class Display {
         // Realizar el cálculo de la operación actual
         this.tipoOperacion !== 'igual' && this.calcular(); // Realizamos el cálculo si hay una operación pendiente
         this.tipoOperacion = tipo;
-        this.valorAnterior = this.valorActual || this.valorAnterior;
+        this.valorAnterior = this.valorActual || this.valorAnterior; // si valorActual no tiene un valor válido (undefined, null o una cadena vacía), se asigna el valor valorAnterior
         this.valorActual = '';
       }
       this.imprimirValores();
@@ -64,7 +64,7 @@ class Display {
     imprimirValores() {
       // Mostrar los valores en los elementos de visualización correspondientes
       this.displayValorActual.textContent = this.valorActual;
-      this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.signos[this.tipoOperacion] || ''}`;
+      this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.signos[this.tipoOperacion] || ''}`; // Mostramos el valor anterior y el signo de la operación en el display. Si no hay un signo definido para la operación actual, se muestra una cadena vacía en su lugar
     }
   
     calcular() {
