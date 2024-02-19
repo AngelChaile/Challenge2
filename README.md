@@ -1,7 +1,5 @@
-# Challenge2
-
-CHALLENGE #2 PRÁCTICAS PROFESIONALIZANTES 3 – EVALUCIÓN PARCIAL
-Consigna:
+#     CHALLENGE #2 PRÁCTICAS PROFESIONALIZANTES 3 – EVALUCIÓN PARCIAL
+##     Consigna:
 El siguiente desafío de frontend, a modo de evaluación parcial, incluye el diseño, desarrollo
 y personalización de una calculadora web. Además, se deberá presentar la misma a través
 de un subdominio del dominio de practicas.com.ar sobre el cual venimos trabajando hasta
@@ -36,11 +34,16 @@ mostrada en la calculadora de ejemplo se obtiene nota 7(siete). La calificación
 calculadora o agregando funciones para más operaciones, por ejemplo, potencia,
 porcentaje, raíz, operaciones con reales, paréntesis, etc.
 
-RESOLUCIÓN
+##     RESOLUCIÓN
 
-Notas: * la funcion raiz solo se puede utilizar con raiz cuadrada.
+**Notas:**  
+1. la funcion raiz solo se puede utilizar con raiz cuadrada.
 
-      * para calcular el porcentaje se debe colocar primero la cantidad de porcentaje a luego el signo porcentaje (%) y por ultimo al total que le vamos a calcular el porcentaje. Por ejemplo si queremos calcular el 10% de 100 colocamos en la calculadora 10 luego % luego 100 luego = 
+2. para calcular el porcentaje se debe colocar primero la cantidad de porcentaje luego el signo porcentaje (%) y por ultimo al total que le vamos a calcular el porcentaje. Por ejemplo si queremos calcular el 10% de 100 colocamos en la calculadora 10 luego % luego 100 luego = 
+
+![CALCULADORA2](https://github.com/AngelChaile/Challenge2/assets/90362775/7cc75973-4ec2-4a56-a223-0e107bea5741)
+![calculadora3](https://github.com/AngelChaile/Challenge2/assets/90362775/03f931a2-fe50-4117-89cd-9ea80ef9f282)
 
 
-[Challenge#2_Parcial.pdf](https://github.com/AngelChaile/Challenge2/files/14182622/Challenge.2_Parcial.pdf)
+###     Prueba la Calculadora En Vivo 💻🎥
+[Calculadora](https://angelchaile.github.io/Challenge2/)
